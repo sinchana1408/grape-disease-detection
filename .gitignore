@@ -16,11 +16,11 @@ pip/
 # =========================
 # ML Models & Dataset (IMPORTANT)
 # =========================
-saved_models/
-grape_dataset/
-*.h5
-*.keras
-*.pt
+# saved_models/
+# grape_dataset/
+# *.h5
+# *.keras
+# *.pt
 
 # =========================
 # Logs & results
