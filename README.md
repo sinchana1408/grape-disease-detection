@@ -69,15 +69,11 @@ Shifting
 These techniques help improve model generalization and overall performance.
 
 ## PROJECT SCREENSHOTS
-🔹 Home Page
+ Home Page
 
-(Upload Image UI)
 
-🔹 Prediction Output
 
-(Displays predicted disease, confidence score, and model comparison)
-
-6. COMPILATION / EXECUTION PROCEDURE
+## COMPILATION / EXECUTION PROCEDURE
 Step 1: Install Dependencies
 pip install tensorflow numpy opencv-python flask scikit-learn
 npm install
@@ -86,7 +82,7 @@ python app.py
 Step 3: Run Frontend
 cd frontend
 npm start
-7. PROCEDURE TO RUN THE PROJECT
+## PROCEDURE TO RUN THE PROJECT
 Load the grape leaf dataset
 Preprocess images (resize, normalize, and augment)
 Train models using transfer learning techniques
@@ -98,7 +94,7 @@ Output Includes:
 Final prediction
 Confidence score
 Model comparison results
-8. WORKING OF THE SYSTEM
+## WORKING OF THE SYSTEM
 Input:
 Grape leaf image
 Processing Steps:
@@ -111,18 +107,18 @@ Output:
 Predicted disease class
 Confidence score
 Model comparison results
-9. LIMITATIONS
+## LIMITATIONS
 Requires clear and high-quality input images
 Accuracy depends on dataset size and diversity
 Training deep learning models requires significant computational resources
 Not optimized for real-time field deployment without further improvements
-10. FUTURE ENHANCEMENTS
+## FUTURE ENHANCEMENTS
 Deployment as a mobile application
 Real-time disease detection using camera input
 Integration with IoT-based smart farming systems
 Providing treatment recommendations for detected diseases
 Extending the system to support other crops and plant diseases
-11. CONCLUSION
+## CONCLUSION
 
 The GrapeCare system effectively detects grape leaf diseases using image-based deep learning techniques.
 
