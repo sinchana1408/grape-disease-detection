@@ -1,0 +1,93 @@
+ body {
+  margin: 0;
+  font-family: "Segoe UI";
+  background: #f4f6f8;
+}
+
+.app {
+  text-align: center;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #2e7d32, #66bb6a);
+  color: white;
+  padding: 40px 20px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 20px;
+  margin-top: -30px;
+  display: inline-block;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 220px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+/* RESULT */
+.result {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.highlight {
+  color: #2e7d32;
+}
+
+/* INFO BOX */
+.info-box {
+  background: #e8f5e9;
+  padding: 15px;
+  margin: 15px auto;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+/* MODELS */
+.models {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.model {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 120px;
+  border: 1px solid #ccc;
+}
+
+.model.best {
+  border: 3px solid green;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 40px;
+  padding: 10px;
+  background: #2e7d32;
+  color: white;
+}

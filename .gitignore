@@ -1,0 +1,58 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Virtual environment
+venv/
+env/
+pip/
+
+# =========================
+# ML Models & Dataset (IMPORTANT)
+# =========================
+saved_models/
+grape_dataset/
+*.h5
+*.keras
+*.pt
+
+# =========================
+# Logs & results
+# =========================
+*.log
+model_comparison_results.txt
+
+# =========================
+# Images / outputs
+# =========================
+accuracy_graph.png
+loss_graph.png
+
+# =========================
+# Node / React
+# =========================
+frontend/node_modules/
+node_modules/
+build/
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
