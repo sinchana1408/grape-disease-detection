@@ -69,8 +69,8 @@ Shifting
 These techniques help improve model generalization and overall performance.
 
 ## PROJECT SCREENSHOTS
- Home Page
-
+Prediction Output
+ ![Prediction Output](./image.png)
 
 
 ## COMPILATION / EXECUTION PROCEDURE
